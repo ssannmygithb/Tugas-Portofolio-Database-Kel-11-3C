@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Database Group 11 — a collaborative portfolio of database and digital product builders.">
+  <title>DATABASE_GROUP_11 // PORTFOLIO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Database Group 11 home">
+        <span class="prompt">root@group11:~$</span>
+        <span>./portfolio</span><span class="cursor" aria-hidden="true">_</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#members">members</a>
+        <a href="#about">about</a>
+        <a href="#contact">connect</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero bento-grid" aria-labelledby="hero-title">
+        <div class="hero-copy panel panel-large">
+          <p class="eyebrow">[ SYSTEM ONLINE // 2025 COHORT ]</p>
+          <h1 id="hero-title">DATABASE<br><span>GROUP_11</span></h1>
+          <p class="hero-description">A digital workspace showcasing collaborative projects, database skills, and the people behind the build.</p>
+          <a class="terminal-link" href="#members"><span aria-hidden="true">-&gt;</span> run meet_the_team<span class="cursor" aria-hidden="true">_</span></a>
+        </div>
+        <div class="hero-status panel">
+          <span class="status-dot" aria-hidden="true"></span>
+          <p class="eyebrow">NETWORK STATUS</p>
+          <strong>CONNECTED</strong>
+          <span class="status-value">3 NODES ACTIVE</span>
+        </div>
+        <div class="hero-index panel">
+          <p class="eyebrow">INDEX / 001</p>
+          <p class="index-mark">[ DB ]</p>
+          <p class="muted">BUILDING BETTER<br>FROM THE ROOT UP.</p>
+        </div>
+      </section>
+
+      <section id="members" class="members-section" aria-labelledby="members-title">
+        <div class="section-heading">
+          <p class="eyebrow">/etc/members</p>
+          <h2 id="members-title">MEET THE TEAM<span class="cursor" aria-hidden="true">_</span></h2>
+          <p class="section-count">[ 03 RECORDS FOUND ]</p>
+        </div>
+
+        <div class="members-grid">
+          <article class="member-card panel member-featured">
+            <div class="card-topline"><span>USER_001</span><span>FULLSTACK</span></div>
+            <div class="avatar" aria-hidden="true">SA</div>
+            <h3>Shafwan<br>Anwar</h3>
+            <p class="role">FULLSTACK DEVELOPER</p>
+            <p class="education">B.S. IN INFORMATICS ENGINEERING<br><span>CLASS OF 2025</span></p>
+            <p class="bio">Develops and integrates frontend and backend systems, from database structures and REST APIs to authentication and smooth application flows.</p>
+            <div class="skills" aria-label="Shafwan Anwar skills"><span>FRONTEND</span><span>BACKEND</span><span>REST API</span><span>DATABASE</span></div>
+            <div class="card-actions" id="contact">
+              <button type="button" onclick="window.open('https://github.com/Wannx98', '_blank')">GH // VIEW</button>
+              <button type="button" onclick="window.open('https://linkedin.com/in/shafwan-anwar-322890192/', '_blank')">LI // CONNECT</button>
+            </div>
+          </article>
+
+          <article class="member-card panel member-tall">
+            <div class="card-topline"><span>USER_002</span><span>DEPLOYMENT</span></div>
+            <div class="avatar avatar-alt" aria-hidden="true">MG</div>
+            <h3>Muhammad<br>Ghassan<br>Dzul Hannan</h3>
+            <p class="role">GIT SPECIALIST &amp; DEPLOYMENT</p>
+            <p class="education">B.S. IN INFORMATICS ENGINEERING<br><span>CLASS OF 2025</span></p>
+            <p class="bio">Keeps the team moving with clean Git commits, reliable branches, and a deployed GitHub Pages experience.</p>
+            <div class="skills" aria-label="Muhammad Ghassan Dzul Hannan skills"><span>GIT</span><span>BRANCHING</span><span>CI/CD</span><span>GITHUB PAGES</span></div>
+            <div class="card-actions">
+              <button type="button" onclick="window.open('https://github.com/ssannmygithb', '_blank')">GH // VIEW</button>
+              <button type="button" onclick="window.open('https://linkedin.com/in/muhammadghassandzulhannan', '_blank')">LI // CONNECT</button>
+            </div>
+          </article>
+
+          <article class="member-card panel member-wide">
+            <div class="card-topline"><span>USER_003</span><span>DESIGN</span></div>
+            <div class="member-wide-content">
+              <div class="avatar avatar-third" aria-hidden="true">DH</div>
+              <div>
+                <h3>Daniyal Haritz</h3>
+                <p class="role">UI/UX DESIGNER &amp; TECHNICAL WRITER</p>
+                <p class="education">B.S. IN INFORMATICS ENGINEERING // <span>CLASS OF 2025</span></p>
+                <p class="bio">Shapes intuitive interfaces, clear technical stories, and seamless digital product experiences.</p>
+              </div>
+            </div>
+            <div class="member-wide-bottom">
+              <div class="skills" aria-label="Daniyal Haritz skills"><span>UI/UX</span><span>PROTOTYPING</span><span>WIREFRAMES</span><span>DOCUMENTATION</span></div>
+              <div class="card-actions">
+                <button type="button" onclick="window.open('https://github.com/daniyalharitz', '_blank')">GH // VIEW</button>
+                <button type="button" onclick="window.open('https://linkedin.com/in/daniyalharitz/', '_blank')">LI // CONNECT</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about panel" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">/var/about_group11</p>
+          <h2 id="about-title">BUILD WITH INTENT.</h2>
+        </div>
+        <p>Three perspectives, one shared system. We combine engineering, deployment, and design to make digital products that are structured, useful, and ready to ship.</p>
+        <div class="command-output" aria-label="Build metrics">
+          <span>&gt; collaboration --status</span><strong>OPTIMIZED</strong>
+          <span>&gt; ideas --count</span><strong>∞</strong>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>DATABASE_GROUP_11 © 2025</span>
+      <span>BUILT WITH HTML // CSS // JS</span>
+      <a href="#top">[ BACK_TO_TOP ]</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
