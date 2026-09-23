@@ -4,8 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.querySelectorAll(".avatar img").forEach((image) => {
-    image.addEventListener("error", () => {
+    const handleBrokenImage = () => {
       image.classList.add("is-missing");
-    });
+    };
+
+    image.addEventListener("error", handleBrokenImage);
+
+    if (image.complete && image.naturalWidth === 0) {
+      handleBrokenImage();
+    }
   });
 });
